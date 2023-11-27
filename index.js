@@ -187,7 +187,7 @@ function ValidateLogin(event) {
     }
 
   GenError.innerHTML = "Login successful!";
-  window.location.href = "msword.html";
+  window.location.href = "index.htm";
 
   return true;
 }

@@ -1,0 +1,536 @@
+body {
+    font-family: Arial, sans-serif, Courier, Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color:#eee;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .upredB{
+    background: #fff;
+    cursor: default;
+  }
+  .upred{
+    background-color: rgb(197, 23, 23);
+    display: flex;
+    align-items: center;
+    margin-left: 180px;
+    margin-right: 270px;
+    cursor: default;
+    height: 19px;
+    width: 62.4em;
+    cursor: default;
+  }
+  .upred p{
+    color: #fff;
+    align-self: center;
+    cursor: default;
+    margin-left: 370px;
+    
+  }
+  .topicon{
+    position: absolute;
+    top: 9px;
+    list-style: none;
+    padding-left: 12px;
+    cursor: default;
+  }
+  .topicon span img{
+    height: 18px;
+    width: 18px;
+   position: relative;
+bottom: 10px;
+    padding: 5px;
+  }
+  .leftEnd{
+    position: absolute;
+    left: 74em;
+    top: 4px;
+  }
+  .leftEnd img{
+    height: 15px;
+    width: 15px;
+      }
+      .Question{ margin-right: 15px; cursor: default;}
+      .ribbon{margin-right: 15px; cursor: default;}
+      .minimize{margin-right: 15px; cursor: default;}
+      .maximize{margin-right: 15px; cursor: default;}
+      .cancel{margin-right: 15px; cursor: default;}
+  .fa-floppy-disk{font-size: 30px; color: rgb(169, 169, 169);  padding-left: 12px;}
+  .fa-rotate-left{font-size: 30px; color: rgb(79, 130, 180);  padding-left: 12px;}
+  .fa-rotate-right{font-size: 30px; color: rgb(189, 162, 162);  padding-left: 12px;}
+  .menu-bar{
+    background-color: #fff;
+    height: 27px;
+  }
+  .menu-bar ul{
+  list-style: none;
+  color: #000000;
+  display: inline-flex;
+  }
+  .menu-bar ul li{
+    width: 100px;
+  }
+  .menu-bar  ul li a{
+    text-decoration: none;
+position: relative;
+bottom: 9px;
+color: #000;
+    font-family: sans-serif;
+    cursor: default;
+  }
+  .file{
+    position: relative;
+background: rgb(79, 130, 180);
+right: 36px;
+margin-right: 20px;
+margin-bottom: 0.4rem;
+padding-left: 40px;
+cursor: default;
+  }
+  #save{
+    color: #ca9494;
+  }
+  .menu-bar  ul li a:hover{
+  color: rgb(79, 130, 180);
+  }
+  
+  .firstbar{
+    background:#fff;
+  display: block;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+    border-top:1px solid #ccc ;
+    width: 200px;
+    height: 120px;
+    cursor: default;
+  }
+  .firstbar .paste img{height:33px; width: 33px; margin-left: 9px;}
+  .firstbar .cut img{height:15px; width: 15px; position: relative; bottom:50px; left:50px;}
+  .firstbar .copy img{height:18px; width: 18px; position: relative; bottom:55px; left:50px;}
+  .firstbar .formatP img{height:18px; width: 18px; position: relative; bottom:62px; left:50px;}
+  .firstbar  .clip{position: relative; bottom:65px; left:53px; font-size: 16px;}
+
+  .Bsecondbar{
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+    border-top:1px solid #ccc ;
+    position: relative;
+    bottom: 125px;
+    left: 204px;
+    height: 103px;;
+    cursor: default;
+  }
+  .ThemeFont, .numbers{
+background: #ffff;
+color: #000;
+position: relative;
+bottom: 40px;
+border-color: #ccc;
+cursor: default;
+  }
+  .letterA{
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    background-color: #fff;
+    position: relative;
+    bottom: 40px;
+    cursor: default;
+  }
+  .smallLA{
+    font-size: 12px;
+    font-weight: 300;
+    color: #000;
+    background-color: #fff;
+    position: relative;
+    bottom: 40px;
+    left: 5px;
+    cursor: default;
+  }
+  .smallAL{
+    border-right-style:ridge; 
+    position: relative;
+    bottom: 40px; 
+    height: 30px; 
+    left: 10px;  
+    cursor: default;
+  }
+  .CapSmalA{
+    font-size: 12px;
+    font-weight: 300;
+    color: #000;
+    background-color: #fff;
+    position: relative;
+    bottom: 40px;
+    left: 15px;
+    cursor: default;
+  }
+  .CapSmalAL{
+    border-right-style:ridge;
+     position: relative;
+     bottom: 40px; 
+     height: 30px; 
+     left: 20px;  
+     cursor: default;
+    }
+  .letter{
+    font-size: 12px;
+    font-weight: 300;
+    color: #000;
+    background-color: #fff;
+    position: relative;
+    bottom: 45px;
+    left: 22px;
+    cursor: default;
+  }
+  .emoji{ position: relative;bottom: 38px; right:1px;cursor: default;}
+  .letterEmL{
+    border-right-style:ridge;  
+    position: relative;
+    bottom: 4px;
+    height: 120px; 
+    left:5px;  
+    cursor: default;
+  }
+  .Flines{
+    display: block;
+    cursor: default;
+  }
+  .Flines img{
+  height: 14px;
+    width: 14px;
+    cursor: default;
+  }
+  .secondbar {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    border-bottom-style:ridge ;
+    position: relative;
+    bottom: 247px;
+    left: 204px;
+    height: 103px;
+    cursor: default;
+  }
+  .second   input[type="button"] {margin-right: 10px;  cursor: default;}
+  .second input[type="color"] {position: relative;  cursor: default;} 
+   .second select {  margin-right: 10px;  cursor: default;} 
+.secLine{
+  border-right-style:ridge; 
+  position: relative; 
+  height: 30px; 
+  left: 5px;  
+  cursor: default;
+}
+.font{
+  margin-top: 5.5em;
+  margin-left: -3em;
+  cursor: default;
+}
+.spacedA{ margin-left:2em;  cursor: default;}
+.abcros{margin-left:1em;  cursor: default;}
+.emojiab{position:relative; right: 15px; top:3px;  cursor: default;}
+
+.normalAlpha{
+  font-size: 20px;
+  position: relative;
+  bottom: 17.7em;
+  left: 27em;
+  cursor: default;
+}
+.normalText{
+  position: relative;
+  bottom: 20.2em;
+  left: 28em;
+  cursor: default;
+}
+.NospacingAlpha{ 
+  position: relative; 
+  bottom: 21em; 
+  left: 29em; 
+  font-size: 17px;   
+  cursor: default;
+}
+.NospacingText{position: relative; bottom: 20.4em; left: 25.5em;  cursor: default;}
+.heading1{
+  font-size: 30px;
+  position: relative;
+  bottom: 11.7em;
+  left: 14em;
+  color: blue;
+  cursor: default;
+}
+.headingT{
+  position: relative;
+  bottom: 20.5em;
+  left: 20em;
+  cursor: default;
+}
+.heading2{
+  font-size: 20px;
+  position: relative;
+  bottom: 17.7em;
+  left: 18em;
+  color: blue;
+  cursor: default;
+}
+.heading2T{
+  position: relative;
+  bottom: 20.5em;
+  left: 17em;
+  cursor: default;
+}
+.title{
+  font-size: 40px;
+  position: relative;
+  bottom: 8.7em;
+  left: 7.5em;
+  cursor: default;
+}
+.titleT{
+  position: relative;
+  bottom: 20.6em;
+  left: 14.5em;
+  cursor: default;
+}
+.subtitle{ 
+   position: relative; 
+   bottom: 21em; 
+   left: 17em; 
+   font-size: 17px;   
+   cursor: default;
+  }
+.subtitleT{position: relative; bottom: 20.5em; left: 14em;  cursor: default;}
+.subtleEm{
+  position: relative; 
+  bottom: 22.3em; 
+  left: 15em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  cursor: default;
+  }
+  .subtleT{position: relative; bottom: 20.5em; left: 11em;   cursor: default;}
+  .Emph{
+    position: relative; 
+  bottom: 22.3em; 
+  left: 13em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  cursor: default;
+  }
+  .EmphT{position: relative; bottom: 20.6em; left: 9em;   cursor: default;}
+ 
+.editor{
+  background: #fff;
+  width: 80%;
+  height: 100%; 
+position: relative;
+bottom: 20em;
+  padding: 50px;
+  outline: none;
+}
+.editor-cont{
+  display: flex;
+  justify-content: center;
+  height: 550px;
+}
+  .editor {
+    border: 1px solid #ccc;
+    padding: 5px;
+    height: 800px;
+  }
+
+  /* FileBar starts Here */
+  .bluePart img{
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    font-family: "segoe UI";
+    opacity: 0.5;
+
+  }
+  .bluePart{
+    background: #3b4bd9;
+    position: relative;
+    bottom: 40px;
+    width: 180px;
+    height: 660px;
+  }
+   .bluePart ul{
+
+list-style: none;
+    color: rgb(245,245,245);
+    display: block;
+    padding: 20px;
+    }
+    .bluePart  ul li a{
+      text-decoration: none;
+      padding: 40px;
+      color: rgb(245,245,245);
+      font-size: 14px;
+    }
+    .line{
+      border-top: 1px rgb(245,245,245) solid;
+      width: 5em;
+      margin-left: 20px;
+    }
+    .whiteBac{
+      background:#fff; 
+      position: relative;
+      height: 660px;
+      bottom: 42.2em;
+      left: 11.5em;
+      cursor:default;
+    }
+    .whiteBac B{
+      position: relative;
+      top: 0.5em;
+      left: 1em;
+      font-size: 50px;
+      color:rgb(0,5,5);
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      cursor: default;
+    }
+    .firstStyle{
+      display: inline-block;
+      width: 150px;
+      height: 130px;
+      border: 1px solid #000;
+      background-color: #fff;
+      position: relative;
+      top: 10em;
+      right: 3em;
+       }
+       .firstText{
+        position: relative;
+        left: 13em;
+        cursor:default;
+       }
+       .firstText h4{font-size: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+       .firstText p{ position: relative; bottom: 1em; font-size: 15px;}
+    .firstStyle img{
+      height: 50px;
+      width: 50px;
+      display: flex;
+      flex-direction: center;
+      position: relative;
+      left: 2.3em;
+      top: 10px;
+    }
+    .firstStyle h4{
+      margin-left:2.3em;
+      margin-bottom: 2em;
+      cursor:default;
+    }
+  
+    .secondStyle img{
+      height: 50px;
+      width: 50px;
+      display: flex;
+      flex-direction: center;
+      position: relative;
+      left: 2.5em;
+      top:1em;
+    }
+    .secondStyle h4{
+      margin-left:2.5em;
+      margin-top: 1.5em;
+      cursor:default;
+    }
+    .secondStyle{
+      display: inline-block;
+      width: 150px;
+      height: 130px;
+      border: 1px solid #000;
+      background-color: #fff;
+position: relative;
+      top: 5em;
+    left: 3em;;
+    }
+    .secondText{
+      position: relative;
+      left: 13em;
+      bottom: 5em;
+      cursor:default;
+    }
+    .secondText h4{font-size: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+    .secondText p{ position: relative; bottom: 1em; font-size: 15px;}
+    .secondText .p1{ position: relative; left: 3em; font-size: 15px; bottom: 6em;}
+    .thirdStyle img{
+      height: 50px;
+      width: 50px;
+      display: flex;
+      flex-direction: center;
+      position: relative;
+      left: 2.5em;
+      top:1em;
+    }
+   .thirdStyle{
+      display: inline-block;
+      width: 150px;
+      height: 130px;
+      border: 1px solid #000;
+      background-color: #fff;
+      position: relative;
+      top: 12em;
+      right: 32.3em;;
+    }
+    .thirdStyle b{
+      position: relative;
+      right: 70em;
+      top: 2em;
+      cursor:default;
+      font-size: 18px;
+    }
+    .thirdText{
+      position: relative;
+      left: 13em;
+      bottom: 200em;
+      cursor:default;
+    }
+    .thirdText h3{
+      font-size: 18px; 
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+    .thirdText p{ position: relative; bottom: 1em; font-size: 15px;}
+    .FileBar{
+      max-height: 50px;
+      cursor: default;
+      display: none;
+    }
+  .Forsave{
+    background:#fff;
+    width: 70px;
+    padding: 3px;
+    cursor: default;
+    color: #011;
+    position: relative;
+    bottom: 13px;
+    left: 4em;
+    font-size: 13px;
+  }
+  .Forundo{
+    background:#fff;
+    width: 120px;
+    padding: 3px;
+    cursor: default;
+    color: #011;
+    position: relative;
+    bottom: 13px;
+    left: 7em;
+    font-size: 13px;
+  }
+  .Forredo{
+    background:#fff;
+    width: 120px;
+    padding: 3px;
+    cursor: default;
+    color: #011;
+    position: relative;
+    bottom: 13px;
+    left: 9.3em;
+    font-size: 13px;
+  }

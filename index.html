@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <title>Ms Word Clone</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+     <Section class="menu-bar">
+        <span class="logo"><i class="fa-brands fa-github"></i></span>
+        </select></span>
+        <ul>
+           <li><a href="#" id="home">Home</a></li>
+            <li><a href="#" id="shut">Features</a></li>
+            <li><a href="#" id="accounts">Account</a></li>
+            <li><a href="#">Sponsoring</a></li>
+        </ul>
+     </Section>
+
+     <sectioin class="trending">
+        <a href=""><i class="fa-solid fa-book-open-reader"></i>&nbsp;Trending Now!</a>
+     </sectioin>
+     <span class="trendB"><h1>Stay Tuned! Stay Informed!</h1></span>
+     <span class="trendC"><p>The Communication-powered platform to have fun, and edit documents </p>
+     <p>around the globe</p> </span>
+     <br>
+     <br>
+     <section class="parameter">
+     <span class="trusted">
+     <input type="checkbox"checked id="trusted"><p>Trusted by the world’s leading organizations</p></span>
+     <div class="trustedO">
+<ul class="norm">
+   <h3>Services</h3>
+   <li><a href="sms:how are u">Bulk SMS</a></li>
+   <li><a href="#">Email to SMS</a></li>
+  <h3>SMS Shortcodes</h3>
+  <li><a href="#">Virtual SMS number</a></li>
+  <li><a href="#">SMS Alert</a></li>
+  <li><a href="#">Emergency SMS</a></li>
+  <li><a href="#">Automated SMS</a></li>
+  <li><a href="#">SMS API</a></li>
+</ul>
+     </div>
+
+     <div class="normal">
+      <h2 id="p1">Partner programme</h2>
+      <h2 id="p2">Resources</h2>
+      <h2 id="p3">Quick links</h2>
+     </div>
+   </section>
+<a href="#" id="shutup"><i class="fa-solid fa-xmark"></i></a>
+      <section class="form-box" id="formCont">
+         <h1 id="title">Sign Up</h1> 
+         <form id="signinForm" class="signinForm" onsubmit="ValidateLogin(event) "></form>
+         <form id="signupForm" onsubmit="ValidateForm(event);">
+            <div class="input-group">
+               <span class="GenError" id="GenError"></span>
+               <div class="input-field" id="nameField" >
+                <i class="fa-solid fa-user"></i>
+                  <input type="text" id="nameInput" placeholder="Name">
+                  <span id="nameError"></span>
+               </div>
+
+               <div class="input-field">
+                  <i class="fa-solid fa-envelope"></i>
+                  <input type="email" id="emailInput" placeholder="Email">
+               <span id="emailError"></span>
+               </div>
+
+      
+               <div class="input-field">
+                  <i class="fa-solid fa-lock"></i>
+                  <input type="password" id="passwordInput" placeholder="Password">
+                  <span id="passwordError"></span>
+               </div>
+               <p style="color: #fff">Lost Password  <a href="#">Click Here!</a>
+               </p>
+            </div>
+            <div class="btn-field">
+               <button type="button" id="signupBtn"onclick="ValidateForm();" >Sign Up</button>
+               <button type="button" id="signinBtn" class="disable">Sign In</button>
+            </div>
+         </form>
+   </section>
+   <script src="index.js"></script>
+</body>
+</html>

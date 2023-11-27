@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="msWord.css">
+    <title>msWord Clone </title>
+</head>
+<body>
+  <div class="upredB"><span class="upred"><p>Document1 - Word(Product Activation Failed)</p></span></div>
+  <section class="page toolBar" id="toolBar">
+  <div class="topicon">
+   <span class="msWord"><img src="images\msWord.png"></img></span>
+   <span class="save"><img src="images\save.png" id="save" ></img></span>   
+   <span class="undo"><img  src="images\undo.png" id="undo"></i></span>
+   <span class="redo"><img  src="images\redo.png" id="redo"></i></span>
+  </div>
+
+  <Section class="menu-bar">
+    <ul>
+       <li><a href="#" id="file" class="file" style="color: #fff; width: 20px;">FILE</a></li>
+        <li><a href="#" id="insert" style="position: relative; right: 2em;">HOME</a></li>
+        <li><a href="#" id="accounts" style="position: relative; right: 4em;">INSERT</a></li>
+        <li><a href="#" id="design" style="position: relative; right: 5em;">DESIGN</a></li>
+        <li><a href="#" id="mailing" style="position: relative; right:5em;">MAILNIG</a></li>
+        <li><a href="#" id="review" style="position: relative; right: 5em;">REVIEW</a></li>
+        <li><a href="#" id="view" style="position: relative; right:5em;">VIEW</a></li>
+    </ul>
+ </Section>
+</Section>
+<section class="popups">
+  <span class="Forsave" id="Forsave">Save(ctrl+S)</span>
+  <span class="Forundo" id="Forundo">Can't redo(ctrl+Z)</span>
+  <span class="Forredo" id="Forredo">Can't repeat(Ctrl+Y)</span>
+ </section>
+ <div class="leftEnd">
+  <span class="Question"><img src="images\question.png" alt="Question"></span>
+  <span class="ribbon"><img src="images\ribbon-top.png" alt="ribbon"></span>
+  <span class="minimize"><img src="images\minimize.png" alt="Minimize"></span>
+<span class="maximize"><img src="images\maximize.png" alt="Maximize"></span>
+<span class="cancel"><img src="images\cancel.png" alt="Cancel"></span>
+</div>
+
+<section class="toolBar" id="toolBbar">
+  <div class="firstbar">
+<span class="paste"><img src="images\paste.png" style="color: #ccc;"></span>
+<main class="pasteText" style="margin-left: 9px; font-size: 12px;">Paste</main>
+<span class="cut"><img src="images\cut.png"></span>
+<main class="cutText" style="position:relative; bottom:67px; left:66px; font-size:12px;">Cut</main>
+<span class="copy"><img src="images\copy.png"></span>
+<main class="copyText" style="position:relative; bottom:74px; left:70px; font-size:12px;">Copy</main>
+<span class="formatP"><img src="images\brush.png"></span>
+<main class="formatText" style="position: relative; bottom: 80px; left:70px; font-size: 12px;"> Format Painter</main>
+<span class="clip">Clipboard</span>
+  </div>
+ 
+  <div class="Bsecondbar">
+    <select id="fontFamilySelect" class="ThemeFont">
+      <option value="Arial">Arial</option>
+      <option value="Helvetica">Helvetica</option>
+      <option value="Times New Roman">Times New Roman</option>
+      <option value="Courier New">Courier New</option>
+      <option value="Verdana">Verdana</option>
+      <option value="Algeria">Algeria</option>
+      <option value="Calbri">Calbri</option>
+      <option value="Britannic Bold">Britannic Bold</option>
+      <option value="Arial Narrow">Arial Narrow</option>
+    </select>
+    <select id="fontSizeSelect" class="numbers">
+      <option value="8px">8</option>
+      <option value="12px">12</option>
+      <option value="14px">14</option>
+      <option value="16px">16</option>
+      <option value="18px">18</option>
+      <option value="20px">20</option>
+      <option value="22px">22</option>
+      <option value="24px">24</option>
+      <option value="26px">26</option>
+      <option value="28px">28</option>
+      <option value="36px">36</option>
+      <option value="48px">48</option>
+      <option value="72px">72</option
+    </select>
+    <input class="letterA" type="submit" id="letterA" value="A"> 
+    <input class="smallLA" type="submit" id="smallLA" value="A"> 
+    <span class="smallAL"></span>
+    <input class="CapSmalA" type="submit" id="CapmalA" value="Aa"> 
+    <span class="CapSmalAL"></span>
+    <span class="letterEm">
+    <input type="submit" class="letter" id="LetterEM" Value="A">
+    <span class="emoji" id="emoji">🧨</span>
+  </span>
+  <span class="letterEmL"></span>
+  </div>
+
+ <div class="secondbar" >
+     <button id="boldButton"><b>B</b></button>
+    <button id="italicButton"><i>I</i></button>
+    <button id="underlineButton"><u>U</u></button>
+    <button id="strikeThroughButton"><s>S</s></button>
+    <button id="abc"><del>abc</del></button>
+    <button id="X"><b>X</b><sub>2</sub></button>
+    <button id="X"><b>X</b><sup>2</sup></button>
+    <span class="secLine"></span>
+    <span class="font">Font</span>
+
+    <span class="spacedA">A</span>
+    <span class="abcros">ab</span>
+    <span class="emojiab" id="emojiab">🧨</span>
+    <input type="color" id="backgroundColorPicker" value="A">
+     </div> 
+
+     <div class="thirdBar">
+      <span class="normal">
+      <span class="normalAlpha">AaBbCcDd</span>
+      <span class="normalText">Normal</span>
+    </span>
+      <span class="Nospacing">
+        <span class="NospacingAlpha">AaBbCcDd</span>
+      <span class="NospacingText">No Spacing</span>
+      </span>
+      <span class="HeadingOne">
+        <span class="heading1">AaBbCc</span>
+        <span class="headingT">Heading 1</span>
+      </span>
+  <span class="headingTwo">
+    <span class="heading2">AaBbCcD</span>
+    <span class="heading2T">Heading 2</span>
+  </span>
+  <span class="Title">
+    <span class="title">AaB</span>
+    <span class="titleT">Title</span>
+  </span>
+  <span class="subTitle">
+    <span class="subtitle">AaBbCcD</span>
+    <span class="subtitleT">Subtitle</span>
+  </span>
+  <span class="subtleEmphsis">
+  <span class="subtleEm">AaBbCcD</span>
+  <span class="subtleT">subtle</span>
+</span>
+<span class="Emphsis">
+  <span class="Emph">AaBbCcD</span>
+  <span class="EmphT">subtle</span>
+</span>
+     </div>
+    
+    <div class="container">
+      <div class="editor-cont" id="editor">
+        <textarea name="" class="editor"id="myTextarea" cols="30" rows="10"></textarea>
+      </div>
+    </div>
+  </section>
+
+  <section class="FileBar" id="FileBar">
+    <div class="bluePart">
+      <ul>
+       <li style="margin-bottom: 20px;"><a href=""><img src="images\arrow-left.png" id="file"></a></li>
+        <li  style="margin-bottom: 20px;"><a href="#" >Info</a></li>
+        <li style="margin-bottom: 20px;"><a href="#">New</a></li>
+        <li style="margin-bottom: 20px;"><a href="#" >open</a></li>
+        <li  style="margin-bottom: 20px;"><a href="#">Save</a></li>
+        <li  style="margin-bottom: 20px;"><a href="#">Save As</a></li>
+        <li  style="margin-bottom: 20px;"><a href="#">Print</a></li>
+        <li  style="margin-bottom: 20px;"> <a href="#">Share</a></li>
+        <li  style="margin-bottom: 20px;"><a href="#">Export</a></li>
+        <li  style="margin-bottom: 40px;"><a href="#">Close</a></li>
+        <p  class="line"></p>
+        <li  style="margin-bottom: 20px;"><a href="#">Account</a></li>
+        <li  style="margin-bottom: 20px;"><a href="#">Options</a></li>
+      </ul>
+    </div>
+ 
+
+  <div class="whiteBac">
+<B >Info</b>
+<span class="firstStyle"><img src="images\cloud.png" alt="cloud">
+  <h4>Protect <br>Document</h4>
+</span>
+<span class="firstText">
+  <h4>Protect Document</h4>
+  <p>control what type of changes people can make to this document</p>
+</span>
+<span class="secondStyle"><img src="images\computer.png" alt="computer">
+  <h4>Check for<br>Issues</h4>
+</span>
+<span class="secondText">
+  <h4>Insect Document</h4>
+  <p>Before publishing this file, beware that it contains:</p>
+  <p class="p1">Documents Properties and Author's Name</p1>
+</span>
+<span class="thirdStyle"><img src="images\find.png" alt="versions">
+  <b class="diff">Manage<br>Versions</b>
+</span>
+<span class="thirdText">
+  <h3>Versions</h3>
+  <p>There are no previous versions of this file</p>
+</span>
+  </div>
+</section>
+
+
+<script src="msWord.js"></script>
+</body>
+</html>
+
